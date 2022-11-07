@@ -7,7 +7,7 @@ export const Aboutme=()=>{
         {/* <Text color={'#CB2D6F'} fontSize={33} textDecoration={"underline"} marginTop={'77px'} >About Me</Text> */}
         <Heading  color={'purple.700'} fontSize={44}  textDecoration={"underline"} >ABOUT ME</Heading>
            <Box w='70%' color='grey' fontSize={22} margin={'auto'} mt={'33px'}>
-                <Text textAlign={'center'}>
+                <Text textAlign={'center'} >
                     Dedicated and passionate full stack web developer graduated from Masai
                     School capable to build user-friendly websites/ single page web applications
                     using a frameworks like ReactJS as well as wide range of front-end skills like Redux, JavaScript, HTML, CSS,
