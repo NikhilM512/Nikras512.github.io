@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.238fd6de.js",
+    "main.js": "/static/js/main.f9592659.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/reliance_project_SS.jpg": "/static/media/reliance_project_SS.52d4321269e22e7b1fd7.jpg",
     "static/media/myntra_project_SS.jpg": "/static/media/myntra_project_SS.04c8a540d18ea18acc71.jpg",
@@ -15,11 +15,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.238fd6de.js.map": "/static/js/main.238fd6de.js.map",
+    "main.f9592659.js.map": "/static/js/main.f9592659.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.238fd6de.js"
+    "static/js/main.f9592659.js"
   ]
 }
