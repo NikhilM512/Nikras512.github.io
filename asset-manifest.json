@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.51cf840e.js",
+    "main.css": "/static/css/main.9d64e171.css",
+    "main.js": "/static/js/main.46cc2853.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/reliance_project_SS.jpg": "/static/media/reliance_project_SS.52d4321269e22e7b1fd7.jpg",
     "static/media/myntra_project_SS.jpg": "/static/media/myntra_project_SS.04c8a540d18ea18acc71.jpg",
@@ -14,12 +14,12 @@
     "static/media/react.png": "/static/media/react.aa2d1b58de9a7180f161.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.51cf840e.js.map": "/static/js/main.51cf840e.js.map",
+    "main.9d64e171.css.map": "/static/css/main.9d64e171.css.map",
+    "main.46cc2853.js.map": "/static/js/main.46cc2853.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.51cf840e.js"
+    "static/css/main.9d64e171.css",
+    "static/js/main.46cc2853.js"
   ]
 }
