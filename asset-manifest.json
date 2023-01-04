@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9d64e171.css",
-    "main.js": "/static/js/main.a26dec5e.js",
+    "main.js": "/static/js/main.d1b7e1cf.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/reliance_project_SS.jpg": "/static/media/reliance_project_SS.52d4321269e22e7b1fd7.jpg",
     "static/media/myntra_project_SS.jpg": "/static/media/myntra_project_SS.04c8a540d18ea18acc71.jpg",
@@ -9,17 +9,17 @@
     "static/media/googleDigitalGarage_project_cc.jpg": "/static/media/googleDigitalGarage_project_cc.3728ebcc76630a178ae2.jpg",
     "static/media/profilePic.png": "/static/media/profilePic.3f0a58aa3a34f3684d47.png",
     "static/media/HTML.png": "/static/media/HTML.4de5d2224c60b7fbde73.png",
-    "static/media/CSS.png": "/static/media/CSS.8a182087615a3845ebac.png",
     "static/media/NodeJS.png": "/static/media/NodeJS.3d42b9fcd2913cb2a789.png",
-    "static/media/react.png": "/static/media/react.aa2d1b58de9a7180f161.png",
+    "static/media/Git.jpg": "/static/media/Git.abbe0463d41f97043f3d.jpg",
+    "static/media/Chakra.jpg": "/static/media/Chakra.22937fcd5af2100437bd.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.9d64e171.css.map": "/static/css/main.9d64e171.css.map",
-    "main.a26dec5e.js.map": "/static/js/main.a26dec5e.js.map",
+    "main.d1b7e1cf.js.map": "/static/js/main.d1b7e1cf.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d64e171.css",
-    "static/js/main.a26dec5e.js"
+    "static/js/main.d1b7e1cf.js"
   ]
 }
