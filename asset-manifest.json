@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6b482533.css",
-    "main.js": "/static/js/main.8c238f69.js",
+    "main.js": "/static/js/main.de2a243a.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/KFCBanner1.png": "/static/media/KFCBanner1.d241d0ed679e5159af19.png",
     "static/media/LiciousBanner.png": "/static/media/LiciousBanner.cf73ab90e234b012884a.png",
@@ -17,11 +17,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.6b482533.css.map": "/static/css/main.6b482533.css.map",
-    "main.8c238f69.js.map": "/static/js/main.8c238f69.js.map",
+    "main.de2a243a.js.map": "/static/js/main.de2a243a.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b482533.css",
-    "static/js/main.8c238f69.js"
+    "static/js/main.de2a243a.js"
   ]
 }
