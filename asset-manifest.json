@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6b482533.css",
-    "main.js": "/static/js/main.7152d9c6.js",
+    "main.js": "/static/js/main.bab55a43.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/myntra03.png": "/static/media/myntra03.4476da17e1e88b9df155.png",
     "static/media/Licious01.png": "/static/media/Licious01.aa2e5223014d9e3eeb3a.png",
@@ -44,16 +44,19 @@
     "static/media/Google01.png": "/static/media/Google01.a60ccb61e98c4b59f0c3.png",
     "static/media/Google04.png": "/static/media/Google04.c4d84c4df4a9dfe8bbf6.png",
     "static/media/googleDigitalGarage_project_cc.jpg": "/static/media/googleDigitalGarage_project_cc.3728ebcc76630a178ae2.jpg",
+    "static/media/profilePic.png": "/static/media/profilePic.3f0a58aa3a34f3684d47.png",
+    "static/media/profilePicCircular.png": "/static/media/profilePicCircular.3f0a58aa3a34f3684d47.png",
+    "static/media/profilePicInSqare.jpg": "/static/media/profilePicInSqare.e829cdfac27982e046e5.jpg",
     "static/media/HTML.png": "/static/media/HTML.4de5d2224c60b7fbde73.png",
     "static/media/Chakra.jpg": "/static/media/Chakra.22937fcd5af2100437bd.jpg",
     "static/media/JS3.svg": "/static/media/JS3.fd46ca41839433d73577989d86eb2fe2.svg",
     "index.html": "/index.html",
     "main.6b482533.css.map": "/static/css/main.6b482533.css.map",
-    "main.7152d9c6.js.map": "/static/js/main.7152d9c6.js.map",
+    "main.bab55a43.js.map": "/static/js/main.bab55a43.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b482533.css",
-    "static/js/main.7152d9c6.js"
+    "static/js/main.bab55a43.js"
   ]
 }
