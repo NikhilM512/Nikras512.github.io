@@ -17,7 +17,7 @@ export const Aboutme=()=>{
        display={{sm: "flex", md: "flex", lg:"flex"}} 
        flexDirection={{sm: "column", md: "column", lg:"column"}} 
        justifyItems={{sm: "center", md: "center", lg:"center"}}>
-        <Heading  color={'#8860D0'} fontSize={44}  textDecoration={"underline"} >ABOUT ME</Heading>
+        <Heading  color={'#8860D0'} fontSize={44}  textDecoration={"underline"} >About Me</Heading>
            <Box w='70%' color='grey' fontSize={22} margin={'auto'} mt={'33px'}>
                 <Text id="user-detail-intro" textAlign={{base:'justify',sm:'justify',md:"justify",lg:"center"}} fontSize={{base:"14px",sm: "16xl", md: "18xl", lg:"22px"}}>
                         Aspiring and passionate full-stack web developer who

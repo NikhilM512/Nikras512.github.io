@@ -42,12 +42,12 @@ export const Navbar = () => {
             style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "33px" }}>N</span>ikhil&nbsp;/❯&nbsp;</h1>
         </Heading>
         <HStack display={{ base: 'none', md: 'none', lg: 'flex' }} mr={'10'} w={'55%'} justifyContent={'space-evenly'}>
-          <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'}><a className="nav-link home" href="#header-sec"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>H</span>ome</a></Heading>
-          <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'}><a className="nav-link about" href="#aboutme-sec"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>A</span>bout Me</a></Heading>
-          <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'}><a className="nav-link projects" href="#projects-sec"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>P</span>rojects</a></Heading>
-          <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'}><a className="nav-link skills" href="#skills-sec"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>S</span>kills</a></Heading>
-          <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'}><a className="nav-link contact" href="#contact-sec"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>C</span>ontact</a></Heading>
-          <Heading className="nav-link resume" _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'}><a 
+          <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'}><a className="nav-link home" href="#home"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>H</span>ome</a></Heading>
+          <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'}><a className="nav-link about" href="#about"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>A</span>bout Me</a></Heading>
+          <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'}><a className="nav-link projects" href="#project"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>P</span>rojects</a></Heading>
+          <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'}><a className="nav-link skills" href="#skills"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>S</span>kills</a></Heading>
+          <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'}><a className="nav-link contact" href="#contact"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>C</span>ontact</a></Heading>
+          <Heading className="nav-link resume" id="resume-button-1" _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'}><a 
           id="resume-link-1"
           // target="_blank" 
           // rel="noopener noreferrer" 
@@ -90,9 +90,9 @@ export const Navbar = () => {
               <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'} onClick={onClose}><a className="nav-link home" href="#home"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>H</span>ome</a></Heading>
               <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'} onClick={onClose}><a className="nav-link about" href="#about"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>A</span>bout Me</a></Heading>
               <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'} onClick={onClose}><a className="nav-link projects" href="#projects"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>P</span>rojects</a></Heading>
-              <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'} onClick={onClose}><a className="nav-link skills" href="#skillsc"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>S</span>kills</a></Heading>
+              <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'} onClick={onClose}><a className="nav-link skills" href="#skills"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>S</span>kills</a></Heading>
               <Heading _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'} onClick={onClose}><a className="nav-link contact" href="#contact"><span style={{ color: "#CCCCCC", fontFamily: 'Courgette', fontSize: "27px" }}>C</span>ontact</a></Heading>
-              <Heading className="nav-link resume" _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'} onClick={onClose}><a
+              <Heading className="nav-link resume" id="resume-button-1" _hover={{ transform: "scale(1.25)", overflow: "hidden", color: "black" }} size={'md'} onClick={onClose}><a
                id="resume-link-1" 
                 // target="_blank" 
                 // rel="noopener" 

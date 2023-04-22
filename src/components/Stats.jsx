@@ -12,6 +12,7 @@ export const Stats=()=>{
                 display="flex"
                 justifyContent="center"
                 alignItems="center"
+                id="github-streak-stats"
                 >
                 <a 
                  id="github-streak-stats"
@@ -23,7 +24,7 @@ export const Stats=()=>{
                    width:"100%"
                 }}
                  href="https://github.com/Nikras512">
-                    <Image 
+                    <Image id="github-streak-stats"
                     // https://github-readme-streak-stats.herokuapp.com?user=Nikras512&theme=shades-of-purple&fire=orangered&ring=orange&currStreakNum=8860D0&sideNums=8860D0&sideLabels=8860D0
                     src="https://streak-stats.demolab.com/?user=Nikras512&theme=shades-of-purple&fire=orangered&ring=orange&currStreakNum=8860D0&sideNums=8860D0&sideLabels=8860D0" 
                     alt="Stat-1"
@@ -53,7 +54,7 @@ export const Stats=()=>{
                        }}
                          href="https://github.com/Nikras512"
                         >
-                        <img 
+                        <img id="github-stats-card"
                         // https://github-readme-stats.vercel.app/api?username=Nikras512
                         src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/?username=nikras512&show_icons=true&theme=shades-of-purple&ring=orange&title=purple" 
                         alt="Stat-2" />
@@ -69,6 +70,7 @@ export const Stats=()=>{
                         width:"100%",
                         marginTop:"3%"
                     }} 
+                    id="github-top-langs"
                     // https://github-readme-stats.vercel.app/api/top-langs/?username=Nikras512
                     // https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=nikras512
                         src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=nikras512&theme=shades-of-purple" 
