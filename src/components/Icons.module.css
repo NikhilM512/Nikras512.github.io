@@ -1,0 +1,19 @@
+#GithubIcon:hover{
+    transform: scale(1.25);
+    overflow: hidden;
+}
+
+#LinkedInIcon:hover{
+    transform: scale(1.25);
+    overflow: hidden;
+}
+
+#mailIcon:hover{
+    transform: scale(1.25);
+    overflow: hidden;
+}
+#closeIcon:hover{
+    transform: scale(1.15);
+    overflow: hidden;
+    color: black;
+}

@@ -1,69 +1,80 @@
-// import { Heading } from "@chakra-ui/react"
 
+import { Box, Image } from "@chakra-ui/react"
 
 export const Stats=()=>{
 
      return (
-        <div style={{marginTop:"5%",width:"60%",margin:"auto"}}>
-                   
-            <div
-                style={
-                    {
-                        width:"100%",
-                        marginBottom:"5%",
-                        margin:"auto",
-                        // border:"1px solid green",
-                    }
-                }>
+        <div style={{width:"60%",margin:"auto",height:"auto"}}>                
+                <Box _hover={{transform:"scale(1.05)",overflow:"hidden"}}
+                h="auto"
+                margin="auto"
+                w="100%"
+                display="flex"
+                justifyContent="center"
+                alignItems="center"
+                >
                 <a 
+                 id="github-streak-stats"
+                style={{
+                   display:"flex",
+                   alignItems:"center",
+                   justifyContent:"center",
+                   height:"auto",
+                   width:"100%"
+                }}
                  href="https://github.com/Nikras512">
-                    <img 
-                    style={{width:"100%",marginTop:"5%"}}
-                    align='left'
-                    src="https://github-readme-streak-stats.herokuapp.com?user=Nikras512&theme=shades-of-purple&fire=DD0F09&ring=CB2D6F&currStreakNum=CB2D6F&sideNums=CB2D6F&sideLabels=C94FDD" 
-                    alt="Stat-1" />
+                    <Image 
+                    // https://github-readme-streak-stats.herokuapp.com?user=Nikras512&theme=shades-of-purple&fire=orangered&ring=orange&currStreakNum=8860D0&sideNums=8860D0&sideLabels=8860D0
+                    src="https://streak-stats.demolab.com/?user=Nikras512&theme=shades-of-purple&fire=orangered&ring=orange&currStreakNum=8860D0&sideNums=8860D0&sideLabels=8860D0" 
+                    alt="Stat-1"
+                    width="100%"
+                    align="center"
+                    h="auto"
+                    >
+                    </Image>
                 </a>
-            </div>
-            <div
-                style={
-                    {
-                        width:"100%",
-                        height:"100px",
-                        display:"flex",
-                        // flexDirection:"row",
-                        // justifyContent:"space-evenly",
-                        marginBottom:"55px",
-                        margin:"auto",
-                        // border:"1px solid red"
-                    }
-                }>
-                    {/* <div style={{width:"100%",height:"100%",border:"1px solid red"}}> */}
+                </Box>
+                    <Box
+                    _hover={{transform:"scale(1.05)",overflow:"hidden"}}
+                        w="100%"
+                        h="auto"
+                        display="flex"
+                        flexDirection="column"
+                        justifyContent="start"
+                        alignItems="center"
+                        margin="auto"
+                        mb="55px"
+                    >
                         <a 
-                        style={{height:"100%"}} href="https://github.com/Nikras512"
+                        id="github-stats-card"
+                        style={{height:"100%",
+                        margin:"auto",
+                        marginTop:"3%",
+                       }}
+                         href="https://github.com/Nikras512"
                         >
                         <img 
-                        // style={{height:"100%",width:"60%",border:"1px solid orange"}}
-                        // style={{border:"1px solid orange"}}
-                        align='center'
-                        src="https://github-readme-stats.vercel.app/api?username=Nikras512&show_icons=true&theme=radical" 
+                        // https://github-readme-stats.vercel.app/api?username=Nikras512
+                        src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/?username=nikras512&show_icons=true&theme=shades-of-purple&ring=orange&title=purple" 
                         alt="Stat-2" />
                         </a>
-                    {/* </div> */}
-                
-                    {/* <div style={{width:"50%",height:"100%",border:"1px solid red"}}> */}
                         <a 
-                         style={{height:"100%"}}
-                        // style={{height:"100%",width:"40%",border:"1px solid red"}} href="https://github.com/Nikras512"
+                         id="github-top-langs"
+                         style={{width:"60%",
+                         margin:"auto",
+                        }}
                         >
                         <img 
-                        // style={{border:"1px solid orange"}}
-                        align='left'
-                        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikras512&theme=radical" 
+                        style={{    
+                        width:"100%",
+                        marginTop:"3%"
+                    }} 
+                    // https://github-readme-stats.vercel.app/api/top-langs/?username=Nikras512
+                    // https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=nikras512
+                        src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=nikras512&theme=shades-of-purple" 
                         alt="Stat-3" />
                         </a>
-                    {/* </div> */}
-                
-            </div>
+                    </Box>
         </div>
      )
 }

@@ -1,54 +1,85 @@
-import { Box, Circle, Flex, HStack, IconButton, Image, Stack, Text, useColorMode, VStack } from "@chakra-ui/react"
-import profileImg from "../Images/profilePic.png"
-import {FaSun,FaMoon} from 'react-icons/fa'
-import { useMediaQuery } from '@chakra-ui/react'
+import { Box, Button, Circle, Image, Text } from "@chakra-ui/react"
+import Typical from "react-typical"
+import Resume from "../Resume/Nikhil_Magar_Resume.pdf"
+import profilePicCircular from "../Images/profilePicCircular.png"
 
 export const Header=()=>{
 
-    // const [isNotSmallerScreen]   = useMediaQuery('(min-width:600px)')
+    const downLoad_Resume_And_Open_In_New_Tab=()=>{
+        window.open("https://drive.google.com/file/d/1GJJb4n_n1XwSPl6CJkFe06rRxRpgkF0u/view", "_blank");
+        // window.location.href = Resume;
+      }
 
     return(
-        <Box  id='header-sec' display={'flex'} alignItems={'center'} w={'100%'} margin={'auto'}  h={{sm: "700px", md: "700px", lg:"700px"}} >
-            {/* <Stack  border={'3px solid green'} h={{sm: "100%", md: "100%", lg:"100%"}} w={'100%'} margin={'auto'} pl={{sm: "0px", md: "0px", lg:"105px"}}> */}
-                {/* <Flex  direction={isNotSmallerScreen?"row":"column"} */}
-                <Box display={'flex'} flexDirection={{base:"column",sm: "column", md: "column", lg:"row"}} 
-                // spacing="200px" 
-                // alignSelf={'flex-start'}
-                w={'100%'}
+        <Box 
+        //   id='header-sec'
+          id="home"
+          display={'flex'} 
+          alignItems={'center'}
+          w={'100%'}
+          margin={'auto'}  
+          h={{base:"700px",sm: "700px", md: "700px", lg:"600px"}} 
+         >
+            <Circle position={'absolute'} bg='blue.100' opacity={'0.1'}
+                h={{base:"150px",sm: "200px", md: "220px", lg:"250px"}} 
+                w={{base:"150px",sm: "200px", md: "220px", lg:"250px"}}
+                margin='2%'ml="5%"
+                 alignSelf={'flex-start'}
+                    display={{base:'none',sm: 'none',md:"none",lg:"block"}}
+                    justifyItems={{base:'center',sm: 'center', md: 'flex-start', lg:'flex-start'}}
+                  >
+                </Circle>
+                <Box 
+                flexDirection={{base:"column",sm: "column", md: "column", lg:"row"}} 
+                w={'100%'} display={'flex'} 
                 justifyContent='space-evenly'
                 alignItems={'center'}
-                h={{sm: "100%", md: "100%", lg:"50%"}}
-                // border={'2px solid red'}
-                // p={isNotSmallerScreen?'40':'0'}
+                h={{base:"100%",sm: "100%", md: "100%", lg:"50%"}}
                 >
-                    <Box  h={{base:"150px",sm: "200px", md: "250px", lg:"auto"}} w={{base:"150px",sm: "200px", md: "250px", lg:"auto"}} >
-                    <Image src="https://avatars.githubusercontent.com/u/105916881?s=400&u=3e36eb3b4c166898ccb58d1a4501d99f7551b34f&v=4"
-                    // {profileImg} 
-                      w={'50%'}
+                    <Box ml={{md:"5%"}}
+                     h={{base:"150px",sm: "175px", md: "200px", lg:"220"}} w={{base:"150px",sm: "175px", md: "200px", lg:"220px"}} >
+                    <Image className="home-img" _hover={{transform:"scale(1.05)",overflow:"hidden"}} src={profilePicCircular}
+                      w={'40%'}
+                      position={'relative'}
                       border={'3px solid purple'}
-                      boxSize={'300px'}
-                      h={{base:"100%",sm: "100%", md: "100%", lg:"auto"}} 
+                      borderColor="#8860D0"
+                      boxSize={'250px'}
+                      h={{base:"100%",sm: "100%", md: "100%", lg:"100%"}} 
                       boxShadow={'lg'}
                       backgroundColor={'transparent'}
                       borderRadius='full'
-                    //   alignSelf={'center'}
-                    //   mt={isNotSmallerScreen?'0':'12'}
-                    //   mb={isNotSmallerScreen?'0':'12'}
-                    // mt={isNotSmallerScreen?'0':16}
                     />
                     </Box>
-                    <Box  color={'purple.500'}  align='flex-end' textAlign={'start'}>
-                        <Text fontWeight={'semibold'} fontSize={{sm: "3xl", md: "4xl", lg:"5xl"}}>Hello,</Text>
-                        <Text fontWeight={'semibold'} fontSize={{sm: "3xl", md: "4xl", lg:"5xl"}}>Welcome to my portfolio !</Text>
-                        <Text fontWeight={'bold'} fontSize={{sm: "5xl", md: "6xl", lg:"7xl"}} bgGradient={'linear(to-r,purple.500,cyan.600,blue.500)'} bgClip='text'>I'm Nikhil Magar</Text>
-                        <Text fontWeight={'semibold'} fontSize={{sm: "3xl", md: "4xl", lg:"5xl"}}>Aspiring Full Stack Web Developer</Text>
-                        <Text ></Text>
+                    <Box animation={"moveright"} onAnimationEnd={"1s"} _hover={{transform:"scale(1.10)",overflow:"hidden"}} ml={{base:"1%",sm:"2%",md:"5%"}} w={{base:"350px",sm: "500px", md: "700px", lg:"777px"}} p={'5%'} color={'#8860D0'}  align='flex-end' textAlign={'start'}  h={'auto'} boxSizing={'border-box'}>
+                        <Text  fontWeight={'semibold'} fontSize={{base:"1xl",sm: "2xl", md: "3xl", lg:"4xl"}} color={'skyblue'} >Hello,
+                        👋
+                        </Text>
+                        <Text fontWeight={'semibold'} fontSize={{base:"1xl",sm: "2xl", md: "3xl", lg:"4xl"}} color={'#8860D0'} >Welcome to my portfolio !</Text>
+                        <Text id="user-detail-name" fontWeight={'bold'} fontSize={{base:"3xl",sm: "4xl", md: "5xl", lg:"6xl"}} bgGradient={'linear(to-r,#8860D0,#5680E9,#5AB9EA)'} bgClip='text'>I'm Nikhil Magar</Text>
+                        <Text fontWeight={'bold'} color={'#8860D0'} 
+                         fontFamily={"Courier"}
+                         fontSize={{base:"2xl",sm: "3xl", md: "3xl", lg:"4xl"}}>
+                            <Typical id="user-detail-intro"
+                                loop={Infinity}
+                                steps={[
+                                "Aspiring Full Stack Web Developer 🌐",
+                                1500,
+                                " MERN Stack Developer 💻",
+                                1500,
+                                "React-Redux Developer",
+                                1500,
+                                ]}
+                            />
+                        </Text>
+                        <a id="resume-link-2"
+                        onClick={downLoad_Resume_And_Open_In_New_Tab} 
+                        href={Resume}
+                        download><Button className="nav-link resume" bg="#8860D0" color={'#FFF'} _hover={{background:"#8860D0"}}>
+                            Resume
+                        </Button>
+                        </a>
                     </Box>
                 </Box>
-                {/* <Circle position={'absolute'} bg='blue.100' opacity={'0.1'} w='380px' h='300px' alignSelf={'flex-start'}>
-                </Circle> */}
-            {/* </Stack> */}
-            {/* <hr color="grey" style={{color:"grey",height:"2px"}} /> */}
         </Box>
     )
 }

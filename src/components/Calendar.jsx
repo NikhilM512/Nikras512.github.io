@@ -8,37 +8,42 @@ export const Calendar=(props)=>{
     const {username:GitHubUsername} = props;
 
     const selectLastHalfYear = contributions => {
-        const currentYear = new Date().getFullYear();
-        const currentMonth = new Date().getMonth();
-        const shownMonths = 8;
-      
-        return contributions.filter(day => {
-          const date = new Date(day.date);
-          const monthOfDay = date.getMonth();
-      
-          return (
-            date.getFullYear() === currentYear &&
-            monthOfDay > currentMonth - shownMonths &&
-            monthOfDay <= currentMonth
-          );
-        });
-      };
+      const currentYear = new Date().getFullYear();
+      const currentMonth = new Date().getMonth();
+      const shownMonths = 6;
+    
+      return contributions.filter(day => {
+        const date = new Date(day.date);
+        const monthOfDay = date.getMonth();
+    
+        return (
+          date.getFullYear() === currentYear &&
+          monthOfDay > currentMonth - shownMonths &&
+          monthOfDay <= currentMonth
+        );
+      });
+    };
 
     return(
-        <Box color={'#ccc'} h={{sm: "600px", md: "900px", lg:"1000px"}} p={'5%'} w='100%' >
-         <Heading textDecoration={"underline"}  pb={'5%'}  color={'purple.700'} fontSize={44}>GITHUB STATS</Heading>
+        <Box w="100%"  
+        color={'#ccc'}   
+        h="auto"
+        p={'5%'} 
+        boxSizing="border-box" 
+        margin={"auto"} >
+         <Heading mb={7} textDecoration={"underline"}  pb={'5%'}  color={'#8860D0'} fontSize={44}>GITHUB STATISTICS</Heading>
+         
          <GitHubCalendar
-        //  w={{sm: "700px", md: "900px", lg:"1200px"}}
-        //  border={'1px solid red'}
-         style={{margin:"auto"}}
+         className="react-activity-calendar"
+         style={{margin:"auto",marginBottom:"5%"}}
          username={GitHubUsername}
-         transformData={selectLastHalfYear}
          blockSize={20}
-         fontSize={20} 
-         color={'purple'}
+        color="purple"
          mb={'5%'}
          >
+
          <ReactTooltip delayShow={20}></ReactTooltip>
+
          </GitHubCalendar>
          <Stats/>
     </Box>
