@@ -17,7 +17,7 @@ export const Contact=()=>{
        
         <Box w={["100%","100%","100%","100%"]} display="flex" flexDirection="column" alignItems="center" justifyContent="center" >
         <Box >
-        <span><Text id="contact-phone" display="inline"  color='grey' fontSize={[16,18,20,25]}>📞 Contact No  : +91-9421167202</Text></span>
+        <span><Text id="contact-phone" display="inline" mt="3%" color='grey' fontSize={[16,18,20,25]}>📞 Contact No  : +91-9421167202</Text></span>
         </Box>
         <Text id="contact-email" mt="3%" color='grey' fontSize={[16,18,20,25]}  >📧 Email Id   :  nikhilmagar1995@gmail.com</Text>
         <Text mt="3%" color='grey' fontSize={[16,18,20,25]}  >🏠 Address  : Sangli (Maharashtra)</Text>
