@@ -12,10 +12,10 @@ export const Stats=()=>{
                 display="flex"
                 justifyContent="center"
                 alignItems="center"
-                id="github-streak-stats"
+                // id="github-streak-stats"
                 >
                 <a 
-                 id="github-streak-stats"
+                //  id="github-streak-stats"
                 style={{
                    display:"flex",
                    alignItems:"center",
@@ -47,7 +47,7 @@ export const Stats=()=>{
                         mb="55px"
                     >
                         <a 
-                        id="github-stats-card"
+                        // id="github-stats-card"
                         style={{height:"100%",
                         margin:"auto",
                         marginTop:"3%",
@@ -60,7 +60,7 @@ export const Stats=()=>{
                         alt="Stat-2" />
                         </a>
                         <a 
-                         id="github-top-langs"
+                        //  id="github-top-langs"
                          style={{width:"60%",
                          margin:"auto",
                         }}

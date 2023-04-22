@@ -17,7 +17,7 @@ export const Contact=()=>{
        
         <Box w={["100%","100%","100%","100%"]} display="flex" flexDirection="column" alignItems="center" justifyContent="center" >
         <Box >
-        <span><Text id="contact-phone" display="inline" mt="3%" color='grey' fontSize={[16,18,20,25]}>📞 Contact No  : +91-9421167202</Text></span>
+        <span><Text id="contact-phone" display="inline"  color='grey' fontSize={[16,18,20,25]}>📞 Contact No  : +91-9421167202</Text></span>
         </Box>
         <Text id="contact-email" mt="3%" color='grey' fontSize={[16,18,20,25]}  >📧 Email Id   :  nikhilmagar1995@gmail.com</Text>
         <Text mt="3%" color='grey' fontSize={[16,18,20,25]}  >🏠 Address  : Sangli (Maharashtra)</Text>
@@ -32,10 +32,10 @@ export const Contact=()=>{
                 <ImMail4 id={style.mailIcon} style={{height:"100%",width:"100%",color:"#8860D0"}}></ImMail4> 
             </a>
         </Box>
-        </Box>
-        <Image borderRadius="20px" margin={{base:"auto",sm:"auto",md:"auto",lg:"auto"}} mt={{base:"7%",sm:"7%",md:"7%",lg:"7%"}} w={["95%","95%","95%","50%"]} h={["44vh","55vh","66vh","77vh"]} src="https://gr7800.github.io/static/media/bg1.d4a402f4b5da5590c675.gif"></Image>
-        </Box>
-        <Text fontFamily="monospace" mt="5%" color="#8860D0" fontWeight="semibold"> Designed & Developed by Nikhil Magar © 2022</Text>
+        </Box >
+        <Image  borderRadius="20px" margin={{base:"auto",sm:"auto",md:"auto",lg:"auto"}} mt={{base:"7%",sm:"7%",md:"7%",lg:"7%"}} w={["95%","95%","95%","50%"]} h={["44vh","55vh","66vh","77vh"]} src="https://gr7800.github.io/static/media/bg1.d4a402f4b5da5590c675.gif"></Image>
+        </Box >
+        <Text w="80%" m="auto" mt="1%" textAlign='center' fontSize="18px" fontFamily="monospace" color="#8860D0" fontWeight="semibold"> Designed & Developed by Nikhil Magar © 2022</Text>
        </Box>
     )
 }
