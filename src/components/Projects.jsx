@@ -210,9 +210,9 @@ export const Projects=()=>{
             <Box className="project-card" bg="rgb(136, 96, 208,0.2)" w={{lg:"88%"}} margin={{lg:"auto"}} display="flex" flexDirection={["column","column","column","row"]} _hover={{transform:"scale(1.05)",overflow:"hidden"}} border={'5px solid'} borderColor="#8860D0" borderRadius={{base:'0px 60px 0px 60px',sm:'0px 60px 0px 60px',md:'0px 60px 0px 60px',lg:'0px 90px 0px 90px'}} p={{base:7,sm:7,md:7,lg:"5%"}} mt={{lg:"5%"}}>
                 <Image _hover={{transform:"scale(1.05)"}} w={{lg:"50%"}} mr={{lg:"5%"}} border={'2px solid grey'} src={p3} alt='GoogleGarageImage'></Image>
                  <Box textAlign="justify"  color={'grey'}>
-                    <Heading class="project-title" mt={[7,7,7,0]} mb={5} color={'#8860D0'}>Google Digital Garage Clone</Heading>
-                    <Text class="project-tech-stack" fontWeight="bold" >• <span style={{color:"#8860D0",fontWeight:"bold", textDecoration: 'Underline'}}>TECH STACK</span> - React | JavaScript | HTML | CSS | Chakra UI </Text>
-                    <Text class="project-description">• Description: The Google Digital Garage is a online learning platform from Google.</Text>
+                    <Heading className="project-title" mt={[7,7,7,0]} mb={5} color={'#8860D0'}>Google Digital Garage Clone</Heading>
+                    <Text className="project-tech-stack" fontWeight="bold" >• <span style={{color:"#8860D0",fontWeight:"bold", textDecoration: 'Underline'}}>TECH STACK</span> - React | JavaScript | HTML | CSS | Chakra UI </Text>
+                    <Text className="project-description">• Description: The Google Digital Garage is a online learning platform from Google.</Text>
                     <Text>• Features :Single page web application, Reusable components,
                             Registration/Sign-in pages, Cart, React-Routing, Private
                             Route, Chakra UI, Context API

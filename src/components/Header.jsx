@@ -74,7 +74,7 @@ export const Header=()=>{
                         <a className="nav-link resume" id="resume-link-2"
                         onClick={downLoad_Resume_And_Open_In_New_Tab} 
                         href={Resume}
-                        download><Button id="resume-button-2"  bg="#8860D0" color={'#FFF'} _hover={{background:"#8860D0"}}>
+                        download><Button mt="2%" id="resume-button-2"  bg="#8860D0" color={'#FFF'} _hover={{background:"#8860D0"}}>
                             Resume
                         </Button>
                         </a>
