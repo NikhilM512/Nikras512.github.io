@@ -6,6 +6,7 @@ import { Stats } from "./Stats";
 export const Calendar=(props)=>{
 
     const {username:GitHubUsername} = props;
+    console.log(GitHubUsername,"hhh")
 
     const selectLastHalfYear = contributions => {
       const currentYear = new Date().getFullYear();

@@ -22,7 +22,7 @@ export const Contact=()=>{
         <Text id="contact-email" mt="3%" color='grey' fontSize={[16,18,20,25]}  >📧 Email Id   :  nikhilmagar1995@gmail.com</Text>
         <Text mt="3%" color='grey' fontSize={[16,18,20,25]}  >🏠 Address  : Sangli (Maharashtra)</Text>
         <Box mt="3%" w={{base:"55%",sm: "44%", md: "33%", lg:"22%"}} h={{base:"30px",sm: "30px", md: "40px", lg:"50px"}} display='flex' justifyContent={'space-evenly'}>
-            <a id="contact-github" href="https://github.com/Nikras512" target="_blank">
+            <a id="contact-github" href="https://github.com/NikhilM512" target="_blank">
                 <FaGithub id={style.GithubIcon} _hover={{transform:"scale(1.25)",overflow:"hidden"}} style={{height:"100%",width:"100%",color:"#8860D0"}}></FaGithub> 
             </a>
             <a id="contact-linkedin" href="https://www.linkedin.com/in/nikhil-512-401131168/" target="_blank">

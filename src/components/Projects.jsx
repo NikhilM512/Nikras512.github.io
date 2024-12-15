@@ -169,7 +169,7 @@ export const Projects=()=>{
                             Source Code
                             </Button>
                             </a>
-                    <a className="project-deployed-link" target="_blank" href="https://sage-flan-e5e2d6.netlify.app/">
+                    <a className="project-deployed-link" target="_blank" href="https://creative-marzipan-38c236.netlify.app/">
                         <Button _hover={{transform:"scale(1.05)",overflow:"hidden"}} display="flex" alignItems="center" color={'black'}  bg='#8860D0'>
                             <FaLink style={{display:"inline",marginRight:"5%",width:"15%",height:"100%"}}></FaLink>
                             <p>Deployed Link</p>

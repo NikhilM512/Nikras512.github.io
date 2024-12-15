@@ -6,7 +6,7 @@ import profilePicCircular from "../Images/profilePicCircular.png"
 export const Header=()=>{
 
     const downLoad_Resume_And_Open_In_New_Tab=()=>{
-        window.open("https://drive.google.com/file/d/1GJJb4n_n1XwSPl6CJkFe06rRxRpgkF0u/view", "_blank");
+        window.open("https://drive.google.com/file/d/12wAUb0shpBnxb6hSJLwENIKdyJPp1WBT/view", "_blank");
         // window.location.href = Resume;
       }
 

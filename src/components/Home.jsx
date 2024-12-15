@@ -18,7 +18,7 @@ export const Home=()=>{
             <Projects/>
             <Skills/>
             <Tools/>
-            <Calendar username="Nikras512"/>
+            <Calendar username="NikhilM512"/>
             <Contact/>
         </Box>    
     

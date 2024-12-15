@@ -23,9 +23,9 @@ export const Stats=()=>{
                    height:"auto",
                    width:"100%"
                 }}
-                 href="https://github.com/Nikras512">
+                 href="https://github.com/NikhilM512">
                     <Image id="github-streak-stats"
-                    src="https://github-readme-streak-stats.herokuapp.com?user=Nikras512&theme=shades-of-purple&fire=orangered&ring=orange&currStreakNum=8860D0&sideNums=8860D0&sideLabels=8860D0&bg_color=8860D0"
+                    src="https://github-readme-streak-stats.herokuapp.com?user=NikhilM512&theme=shades-of-purple&fire=orangered&ring=orange&currStreakNum=8860D0&sideNums=8860D0&sideLabels=8860D0&bg_color=8860D0"
                     // src="https://streak-stats.demolab.com/?user=Nikras512&theme=shades-of-purple&fire=orangered&ring=orange&currStreakNum=8860D0&sideNums=8860D0&sideLabels=8860D0" 
                     alt="Stat-1"
                     width="100%"
@@ -52,10 +52,10 @@ export const Stats=()=>{
                         margin:"auto",
                         marginTop:"3%",
                        }}
-                         href="https://github.com/Nikras512"
+                         href="https://github.com/NikhilM512"
                         >
                         <img id="github-stats-card"
-                        src="https://github-readme-stats.vercel.app/api?username=Nikras512&theme=shades-of-purple"
+                        src="https://github-readme-stats.vercel.app/api?username=NikhilM512&theme=shades-of-purple"
                         // src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/?username=nikras512&show_icons=true&theme=shades-of-purple&ring=orange&title=purple" 
                         alt="Stat-2" />
                         </a>
@@ -71,7 +71,7 @@ export const Stats=()=>{
                         marginTop:"3%"
                     }} 
                     id="github-top-langs"
-                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikras512&theme=shades-of-purple"
+                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=NikhilM512&theme=shades-of-purple"
                     // https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=nikras512
                         // src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=nikras512&theme=shades-of-purple" 
                         alt="Stat-3" />
